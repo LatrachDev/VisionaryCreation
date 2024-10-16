@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../Images/main.jpg') no-repeat center center/cover;
+}
+
+/*Start home page style*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.logo img{
+    width: 100px;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  padding-right: 50px;
+}
+
+nav ul li{
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 18px;
+  padding: 30px;
+  transition: color 0.3s, border-bottom 0.3s;
+  border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover {
+  color: #f1f1f1;
+  border-bottom: 2px solid #f1f1f1; 
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    color: #f1f1f1;
+}
+
+.content{
+    max-width: 600px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+}
+
+.divider{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.descreption{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    word-spacing: .8px;
+}
+
+.btn{
+    align-items: center;
+    background-color: #fff;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 500;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .8px;
+    line-height: 24px;
+    min-width: 160px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    box-shadow: #000 0px 0px 20px;
+}
+/*End home page style*/
