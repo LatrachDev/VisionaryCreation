@@ -184,3 +184,101 @@ main{
   border: 2px solid #000;
 }
 /* delete footer style */
+
+/* start services style */
+.service-title {
+    color: #1f1f1f;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    /* margin-top: 8%; */
+}
+
+.intro {
+    color: #1f1f1f;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.services-section-home {
+    padding: 50px 20px;
+    background-color: #f1f1f1;
+}
+
+.container-home {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    color: #f1f1f1;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 14px;
+    color: #f1f1f1;
+}
+
+.card-icon img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.card:nth-child(1) {
+    background-image: url('../Images/designPic.jpg');
+}
+
+.card:nth-child(2) {
+    background-image: url('../Images/developmentPic.jpg');
+}
+
+.card:nth-child(3) {
+    background-image: url('../Images/seoPic.jpg');
+}
+
+.more-services-btn {
+    display: block;
+    background-color: #1f1f1f;
+    color: #f1f1f1;
+    border: solid 1px #1f1f1f;
+    padding: 15px 30px;
+    margin: 30px auto 0;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.more-services-btn:hover {
+    background-color: #f1f1f1;
+    color: #1f1f1f;
+    border: solid 1px #1f1f1f;
+    transform: scale(1.05);
+}
+/* end services style */
