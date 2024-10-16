@@ -112,7 +112,8 @@ main{
 
 .btn:hover{
     transform: scale(1.05);
-    box-shadow: #000 0px 0px 20px;
+    background-color: #06D001;
+    color: #f1f1f1;
 }
 /*End home page style*/
 
@@ -182,6 +183,7 @@ main{
   border: 2px solid #000;
 }
 /* End style contact section */
+
 /* Start footer style */
   footer{
     background: #000;
