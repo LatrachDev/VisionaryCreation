@@ -4,7 +4,7 @@ footer{
     background: #000;
 }
 .footercontainer {
-    width: 80%;
+    width: 95%;
     margin: auto;
     padding: 50px 30px;
     /* padding: 70px 30px 20px; */
@@ -31,7 +31,7 @@ footer{
 
 }
 .logo img{
-    width: 155px;
+    width: 100px;
 }
 nav ul{
     list-style: none;
