@@ -162,12 +162,13 @@ main{
 }
 .contact-form-btn{
   justify-content: center;
-  width: 300px;
+  width: 200px;
   height: 50px;
   border-radius: 10px;
   background: #1f1f1f;
   border: 2px solid #1f1f1f;
   margin: 20px auto;
+  margin-top: 0px;
   color: #f1f1f1;
   font-weight: bold;
   font-size: 20px;
@@ -206,9 +207,11 @@ main{
     background-color:  #000;
     margin: 10px;
     border-radius: 50%;
+    transition: 0.3s;
 }
 .social-media-icon a i:hover{
-    background-color: #f1f1f1; 
+    /* background-color: #f1f1f1;  */
+    color: #06d001;
 
 }
 .logo img{
@@ -275,12 +278,20 @@ footer h2{
     color: #000;
     /* font-weight: 500; */
     font-size: 18px;
+} 
+.footer-btn{
+    font-weight: bold;
+    transition: 0.3s;
+}
+.fa-brands {
+    color: #f1f1f1;
 }
 .footer-btn:hover {
-    transform: scale(1.05);
-    box-shadow: #000 0px 0px 20px;
+    color: #f1f1f1;
+    background-color: #06d001;
     cursor:pointer;
 }
+
 
 .last-child-footer {
     color: #f1f1f1;
