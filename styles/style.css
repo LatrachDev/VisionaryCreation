@@ -285,7 +285,7 @@ main{
 /* end services style */
 
 /* media query style */
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     html, body{
         height: 100%;
         width: 931px;
@@ -302,5 +302,39 @@ main{
         padding: 0px;
         transition: color 0.3s;
     }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .work-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        width: 700px;
+        height: 400px;
+    }
+    .service-title{
+        font-size: 40px;
+    }
+    .intro{
+        font-size: 18px;
+    }
+    .more-services-btn{
+        width: 300px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .more-work-btn{
+        width: 300px;
+        height: 70px;
+        font-size: 18px;
+    }
 }
 /* end media query style */
+
+

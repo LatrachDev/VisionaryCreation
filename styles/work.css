@@ -101,3 +101,52 @@
     transform: scale(1.05);
 }
 /* end work style */
+
+/* media query style */
+@media screen and (max-width: 768px) {
+    .card-icon img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+    .card p{
+        font-size: 20px;
+    }
+    .work-card{
+        width: 700px;
+        height: 400px;
+    }
+    .card h3{
+        font-size: 20px;
+    }
+    .work-card h3{
+        font-size: 40px;
+    }
+    .work-card-icon img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+    .work-card p{
+        font-size: 20px;
+    }
+    .work-title{
+        font-size: 40px;
+    }
+    .work-intro{
+        font-size: 18px;
+    }
+    .more-services-btn{
+        width: 300px;
+        height: 70px;
+        font-size: 18px;
+    }
+    .more-work-btn{
+        width: 300px;
+        height: 70px;
+        font-size: 18px;
+    }
+}
+/* end media query style */
