@@ -21,9 +21,9 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
-    top: 0;
+    /* top: 0; */
 }
 
 .logo img{
@@ -59,6 +59,7 @@ main{
     justify-content: center;
     align-items: center;
     height: 100%;
+    margin-bottom: -100px;
     text-align: center;
     color: #f1f1f1;
 }
@@ -282,3 +283,24 @@ main{
     transform: scale(1.05);
 }
 /* end services style */
+
+/* media query style */
+@media only screen and (max-width: 600px) {
+    html, body{
+        height: 100%;
+        width: 931px;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        padding-right: 0px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: #f1f1f1;
+        font-size: 18px;
+        padding: 0px;
+        transition: color 0.3s;
+    }
+}
+/* end media query style */

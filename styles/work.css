@@ -27,16 +27,17 @@
     margin: 0 auto;
 }
 
-.cards {
+.work-cards {
     display: flex;
     justify-content: space-around;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.card {
+.work-card {
     background-color: rgba(0, 0, 0, 0.5);
     width: 300px;
+    height: 200px;
     padding: 20px;
     border-radius: 10px;
     position: relative;
@@ -45,17 +46,19 @@
     background-size: cover;
     background-position: center;
     margin-bottom: 20px;
+    border: #1f1f1f solid 2px;
     transition: 0.3s;
 }
-.card:hover{
-    transform: translateY(-10px);
+.work-card:hover{
+    transform: scale(1.05);
+    border: #f1f1f1 2px solid;
 }
-.card h3 {
+.work-card h3 {
     font-size: 24px;
     margin: 10px 0;
 }
 
-.card p {
+.work-card p {
     font-size: 14px;
     color: #f1f1f1;
 }
@@ -66,16 +69,16 @@
     margin-bottom: 10px;
 }
 
-.card:nth-child(1) {
-    background-image: url('../Images/designPic.jpg');
+.work-card:nth-child(1) {
+    background-image: url('../Images/MarketingAgencyHover.jpg');
 }
 
-.card:nth-child(2) {
-    background-image: url('../Images/developmentPic.jpg');
+.work-card:nth-child(2) {
+    background-image: url('../Images/WebDev2.jpg');
 }
 
-.card:nth-child(3) {
-    background-image: url('../Images/seoPic.jpg');
+.work-card:nth-child(3) {
+    background-image: url('../Images/LatrachPortfolioHover.jpg');
 }
 
 .more-work-btn {
