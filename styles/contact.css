@@ -182,3 +182,47 @@ main{
   border: 2px solid #000;
 }
 /* delete footer style */
+
+/* Start media queries */
+
+@media (max-width: 1024px) {
+  .contact-content {
+      flex-direction: column;
+      margin: 30px;
+  }
+  
+  .contact-left-side, 
+  .contact-right-side {
+      flex-basis: 100%;
+      padding: 15px;
+  }
+  .contact-right-side {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li a {
+      padding: 15px;
+      font-size: 16px;
+  }
+  
+  .title {
+      font-size: 42px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+      padding: 0 15px;
+  }
+  
+  .contact-form-text {
+      padding: 15px 20px;
+  }
+  
+  .contact-form-btn {
+      width: 180px;
+      font-size: 18px;
+  }
+}
+
