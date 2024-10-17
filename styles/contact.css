@@ -12,7 +12,7 @@ html, body{
 }
 
 /*Start home page style*/
-header{
+.header-contact{
     background-color: #1f1f1f;
     display: flex;
     justify-content: space-between;
@@ -223,6 +223,11 @@ main{
   .contact-form-btn {
       width: 180px;
       font-size: 18px;
+  }
+}
+@media (max-width: 480px){
+  .contact-form-text {
+    font-size: 30px;
   }
 }
 
