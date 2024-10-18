@@ -3,6 +3,11 @@
 footer{
     background: #000;
 }
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+}
 .footercontainer {
     width: 95%;
     margin: auto;
@@ -93,7 +98,7 @@ footer h2{
     padding: 20px 40px;
     color: #000;
     /* font-weight: 500; */
-    font-size: 18px;
+    font-size: 16px;
 } 
 .footer-btn{
     font-weight: bold;
@@ -132,10 +137,12 @@ footer h2{
     .footer-form-text:nth-child(1){
         margin-right: 3px;
     }
-    .footer-form-text:nth-child(2){
+    /* .footer-form-text:nth-child(2){
         width: 100px;
+    } */
+    .footer-form-text{
+        font-size: 20px;
     }
-    
     nav ul {
         padding-right: 20px;
     }

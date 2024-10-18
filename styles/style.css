@@ -29,7 +29,9 @@ header{
 .logo img{
     width: 100px;
 }
-
+nav ul .active {
+    color:#06D001;
+}
 nav ul{
   list-style: none;
   display: flex;
