@@ -125,8 +125,15 @@ footer h2{
     } */
     .right-side{
        
-        margin-left: 100px;
-        margin-top: -20px;
+        /* margin-left: 50px;
+        margin-top: -40px; */
+        display: flex;
+    }
+    .footer-form-text:nth-child(1){
+        margin-right: 3px;
+    }
+    .footer-form-text:nth-child(2){
+        width: 100px;
     }
     
     nav ul {
@@ -146,6 +153,10 @@ footer h2{
 
     .footer-form-text {
         padding: 15px 30px;
+        
+    }
+    .left-side {
+        font-size: 22px;
     }
     .footer-btn:hover {
         color: #f1f1f1;
