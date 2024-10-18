@@ -125,8 +125,15 @@ footer h2{
     } */
     .right-side{
        
-        margin-left: 100px;
-        margin-top: -20px;
+        /* margin-left: 50px;
+        margin-top: -40px; */
+        display: flex;
+    }
+    .footer-form-text:nth-child(1){
+        margin-right: 3px;
+    }
+    .footer-form-text:nth-child(2){
+        width: 100px;
     }
     
     nav ul {
@@ -146,6 +153,15 @@ footer h2{
 
     .footer-form-text {
         padding: 15px 30px;
+        
+    }
+    .left-side {
+        font-size: 22px;
+    }
+    .footer-btn:hover {
+        color: #f1f1f1;
+        background-color: #06d001;
+        cursor:pointer;
     }
 }
 
@@ -175,7 +191,7 @@ footer h2{
 
     nav ul li a {
         padding: 10px;
-        font-size: 16px;
+        font-size: 30px;
     }
 
     .contact-footer {
@@ -188,7 +204,12 @@ footer h2{
         margin-right: 0;
         padding: 20px 0;
     }
+    .right-side {
+        margin: -18px auto;
+        /* margin-top: -18px; */
+    }
 
+    
     footer h2 {
         text-align: center;
     }
@@ -197,16 +218,15 @@ footer h2{
         padding: 15px 20px;
         font-size: 16px;
     }
+    .footer-btn:hover {
+        color: #f1f1f1;
+        background-color: #06d001;
+        cursor:pointer;
+    }
 }
 
 /* phone */
 @media (max-width: 480px) {
-    .footercontainer {
-        padding: 30px 15px;
-        width: 100%;
-    }
-
-    
 
     .social-media-icon a i {
         font-size: 2.5em;
@@ -219,7 +239,7 @@ footer h2{
     }
 
     nav ul li a {
-        font-size: 25px;
+        font-size: 10px;
         padding: 8px;
     }
 
@@ -231,17 +251,17 @@ footer h2{
     .left-side {
         line-height: 40px;
         text-align: center;
-        font-size: 21px;
+        font-size: 13px;
         margin-top: -23px;
     }
 
     .footer-form-text {
         padding: 12px 15px;
-        font-size: 26px;
+        font-size: 13px;
     }
-    .footer-form-text:nth-child(1) {
+    /* .footer-form-text:nth-child(1) {
         margin-left: 80px;
-    }
+    } */
 
     .privacy-footer {
         margin-left: 10px;
@@ -251,6 +271,22 @@ footer h2{
     .last-child-footer {
         font-size: 14px;
     }
+    .footer-btn:hover {
+        color: #f1f1f1;
+        background-color: #06d001;
+        cursor:pointer;
+    }
     
 
+}
+@media (max-width: 480px){
+        .footer-form-text:nth-child(1) {
+        margin-left: 0px;
+    }
+    .footer-btn:hover {
+        color: #f1f1f1;
+        background-color: #06d001;
+        cursor:pointer;
+    }
+    
 }
