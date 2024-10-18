@@ -24,7 +24,7 @@ html, body{
 }
 
 
-.logo img{
+.logo_contact img{
     width: 100px;
 }
 
@@ -48,71 +48,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #f1f1f1;
+  color: #06D001;
   border-bottom: 2px solid #f1f1f1; 
 }
 
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    text-align: center;
-    color: #f1f1f1;
-}
 
-.content{
-    max-width: 600px;
-}
-
-.title {
-    font-size: 48px;
-    font-weight: 800;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: .8px;
-}
-
-.divider{
-    width: 50%;
-    margin: 0 auto;
-    border: 1px solid #f1f1f1;
-    margin-bottom: 20px;
-}
-
-.descreption{
-    font-size: 16px;
-    font-weight: 300;
-    margin-bottom: 30px;
-    word-spacing: .8px;
-}
-
-.btn{
-    align-items: center;
-    background-color: #fff;
-    box-sizing: border-box;
-    color: #000;
-    cursor: pointer;
-    display: inline-flex;
-    font-size: 16px;
-    font-weight: 500;
-    height: 48px;
-    justify-content: center;
-    letter-spacing: .8px;
-    line-height: 24px;
-    min-width: 160px;
-    outline: 0;
-    padding: 0 17px;
-    text-align: center;
-    text-decoration: none;
-    transition: all .3s;
-}
-
-.btn:hover{
-    transform: scale(1.05);
-    background-color: #06D001;
-    color: #f1f1f1;
-}
 /*End home page style*/
 
 /* start style contact section */
@@ -229,5 +169,45 @@ main{
   .contact-form-text {
     font-size: 30px;
   }
+  .header-contact{
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    top: 0;
 }
 
+
+.logo_contact img{
+    width: 60px;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  padding-right: 30px;
+}
+
+nav ul li{
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 18px;
+  padding: 30px;
+  transition: color 0.3s, border-bottom 0.3s;
+  border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover {
+  color: #06D001;
+  border-bottom: 2px solid #f1f1f1; 
+}
+
+
+}
