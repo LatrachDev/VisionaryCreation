@@ -13,12 +13,16 @@ body {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../Images/main.jpg') no-repeat center center/cover;
 }
 .gap {
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
 }
 .login-container {
     padding: 2rem;
     text-align: center;
     margin: 1rem;
+}
+img {
+    width: 100px;
+    transform: translateY(-70px);
 }
 hr {
     width: 50%;
@@ -42,7 +46,7 @@ input {
     width: 100%;
     padding: 0.75rem;
     border: 1px solid #ddd;
-    border-radius: 16px;
+    border-radius: 10px;
     font-size: 1rem;
     transition: border-color 0.3s;
 }
@@ -61,9 +65,9 @@ input {
 }
 
 .login-button:hover {
-    background: #5a6fd6;
+    background: #06D001;
+    color: #f1f1f1;
 }
-
 
 
 
