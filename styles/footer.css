@@ -115,3 +115,142 @@ footer h2{
     padding-bottom: 10px;
 }
 /* End footer style */
+/* Laptop */
+@media (max-width: 1024px) {
+    .footercontainer {
+        padding: 40px 20px;
+    }
+    /* .footer-btn {
+        border: 1px solid red;
+    } */
+    .right-side{
+       
+        margin-left: 100px;
+        margin-top: -20px;
+    }
+    
+    nav ul {
+        padding-right: 20px;
+    }
+
+    nav ul li a {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .social-media-icon a i {
+        font-size: 1.8em;
+        padding: 8px;
+        margin: 8px;
+    }
+
+    .footer-form-text {
+        padding: 15px 30px;
+    }
+}
+
+/* Tablet  */
+@media (max-width: 768px) {
+    .footer-head {
+        flex-direction: column;
+        text-align: center;
+    }
+    .left-side {
+        text-align: center;
+    }
+    .social-media-icon {
+        margin-top: 20px;
+    }
+
+    nav ul {
+        padding-right: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    nav ul li {
+        margin: 5px 10px;
+    }
+
+    nav ul li a {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .contact-footer {
+        flex-direction: column;
+    }
+
+    .left-side,
+    .right-side {
+        flex-basis: 100%;
+        margin-right: 0;
+        padding: 20px 0;
+    }
+
+    footer h2 {
+        text-align: center;
+    }
+
+    .footer-form-text {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+}
+
+/* phone */
+@media (max-width: 480px) {
+    .footercontainer {
+        padding: 30px 15px;
+        width: 100%;
+    }
+
+    
+
+    .social-media-icon a i {
+        font-size: 2.5em;
+        padding: 6px;
+        margin: 6px;
+    }
+
+    nav ul li {
+        margin: 5px;
+    }
+
+    nav ul li a {
+        font-size: 25px;
+        padding: 8px;
+    }
+
+    footer h2 {
+        font-size: 25px;
+        margin: 20px 0;
+    }
+
+    .left-side {
+        line-height: 40px;
+        text-align: center;
+        font-size: 21px;
+        margin-top: -23px;
+    }
+
+    .footer-form-text {
+        padding: 12px 15px;
+        font-size: 26px;
+    }
+    .footer-form-text:nth-child(1) {
+        margin-left: 80px;
+    }
+
+    .privacy-footer {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .last-child-footer {
+        font-size: 14px;
+    }
+    
+
+}
